@@ -54,11 +54,14 @@ const artistRouter = require("./routes/artist");
 const albumRouter = require("./routes/album");
 const labelRouter = require("./routes/label");
 const styleRouter = require("./routes/style");
+const authRouter = require("./routes/auth");
+
 
 
 // use routers
 app.use("/", indexRouter); // use routers
 app.use("/dashboard/artist", artistRouter); // use artist router
+app.use("/auth", authRouter); // use auth router
 app.use("/dashboard/album", albumRouter); // use album router
 app.use("/dashboard/label", labelRouter); // use label router
 app.use("/dashboard/style", styleRouter); // use style router
