@@ -15,6 +15,7 @@
     "bcrypt": "^5.0.0",
     "cloudinary": "^1.23.0",
     "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.4.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^8.2.0",
